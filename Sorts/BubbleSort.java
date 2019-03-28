@@ -21,7 +21,7 @@ class BubbleSort implements SortAlgorithm {
     @Override
     public  <T extends Comparable<T>> T[] sort(T array[]) {
         int last = array.length;
-        //Sorting
+        //Ordenando
         boolean swap;
         do {
             swap = false;
